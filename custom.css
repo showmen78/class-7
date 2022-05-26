@@ -1,0 +1,438 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color:rgb(90, 85, 85);
+}
+
+._container{
+    width: 1150px;
+    margin: auto;
+    position: relative; 
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+/* .........................header section start................................. */
+
+.container {
+    width: 1150px;
+    /* background-color: aquamarine; */
+   
+    margin: auto;
+    position: relative; 
+     display: flex;
+     align-items: center;
+
+}
+
+header{
+    width:  100vw;
+   
+    background-color: #ee2e24;
+    display: flex;
+    color: white !important;;
+   
+    align-items: center;
+    
+}
+header p{
+    color: white;
+}
+
+.left{
+   width: 20%;
+   padding: 6px 0 ;
+
+}
+.right{
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 0 0 0;
+  
+    
+
+
+}
+
+/* .........................header section end................................. */
+
+
+/* .........................navbar starts here................................. */
+
+ nav{
+     width: 100vw;
+ 
+     /* background-color: rgb(243, 237, 237); */
+     position: relative;
+     /* padding: 10px 0; */
+     margin-top: 10px;
+   
+ }
+ nav h1{
+     display: inline-block;
+     font-size: 23px;
+     position: absolute;
+     line-height: 50px;
+     font-weight: 600;
+     margin-left: 10px;
+     color:rgb(90, 85, 85)
+
+     
+
+
+ }
+
+ .nav-left{
+     width: 30%;  
+
+ }
+
+ .nav-right{
+     width: 70%;
+     font-size: 17px;
+     display: flex;
+     position: relative;
+     justify-content: flex-end;
+ }
+ .nav-right ul{
+    list-style-type: none;
+    
+ }
+.nav-right ul li{
+    display: inline-block;
+    margin-left: 15px; 
+     padding: 20px 5px;
+   
+  
+    
+}
+
+
+
+.nav-right ul li:last-child {
+    background-color: red;
+    color:white ;
+    transition: .5s;
+    font-weight: 500;
+    padding: 20px 18px; 
+}
+.nav-right ul li:last-child:hover {
+    color:rgb(83, 81, 81);
+    padding:18px 16px;
+    background-color: transparent;
+    border: 2px solid red;
+
+}
+.nav-right ul li a:hover{
+    color:red
+}
+.seminar:hover a{color:red;}
+.seminar  a  {color:white;}
+
+/* .........................navbar ends here................................. */
+
+/* .........................banner  starts here................................. */
+
+#banner {
+
+background-image: url('./img/banner.webp');
+background-size: cover;
+height: 400px;
+background-color: rebeccapurple;
+}
+
+
+/* .........................banner  ends here................................. */
+
+/* .........................about us starts here................................. */
+#about{
+  margin: 100px auto;
+  
+  
+}
+.about-left{
+
+    width: 40%;
+
+}
+.about-left img{
+    width: 100%;
+   
+   position: relative;
+   top: 0;
+}
+
+.about-right{
+   
+    /* padding-top: 20px 0; */
+    padding-left: 50px;
+    width: 60%;
+    font-size: 18px;
+    color: rgba(85, 86, 87, 0.87);
+   
+   
+   
+
+}
+.about-right h3{
+    color:rgba(58, 57, 57, 0.815);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+   
+}
+
+
+
+/* .........................about us ends here................................. */
+#schedule{
+   
+    
+    text-align: center;
+}
+
+#schedule h2{
+    font-weight: 500;
+    background-color: rgb(233, 227, 227);
+    width: 100vw;
+    padding:10px 0;
+    color: rgba(58, 57, 57, 0.815);
+}
+.table{
+    width: 100%;
+    font-size: 18px;
+    table-layout: fixed;
+    margin: 40px 0;
+  
+ 
+}
+.table th{
+    color:white;
+    font-weight: 500;
+    /* background-color: #383737; */
+    background-color: #313446;
+    padding: 10px 10px;
+    
+}
+.table tr button{
+    background-color: rgb(48, 46, 49);
+    border: none;
+    padding: 10px 30px;
+    color:white;
+    border-radius: 10px;
+    transition: .5s;
+
+}
+.table tr button:hover{
+    background-color: transparent;
+    border:2px solid rgb(48, 47, 47);
+    color:rgb(48, 47, 47);
+}
+.table td{
+    padding: 10px 10px;
+}
+tr:nth-child(odd){
+    background-color:rgba(131, 129, 129, 0.452);
+}
+
+
+
+
+/* ourcouse starts */
+.ourcourse{
+    margin: 50px auto;
+}
+.ourcourse h2,p{
+    color: rgba(58, 57, 57, 0.815);
+    display: block !important;
+}
+
+.card{
+    color: rgba(58, 57, 57, 0.815);
+    margin:20px auto;
+    width: 49%;
+    border: 2px solid rgba(184, 182, 182, 0.171);
+    background-color: #50525e11;
+    
+    
+}
+.card .desc{
+    width: 65%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.card img{
+    width: 35%;
+}
+.card p{
+    padding-top: 15px;
+    font-size: 17px;
+    
+}
+.card a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(47, 47, 71);
+    font-size: 17px;
+    padding: 15px 40px;
+    position: relative;
+    left: -20px;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+     transition: .3s;
+}
+.card a:hover{
+    background-color: rgb(255, 92, 92);
+}
+
+
+
+/* gallary starts here  */
+
+.gallary{
+    margin: 50px auto;
+}
+
+.gallary h3,p{
+    color: rgba(58, 57, 57, 0.815);
+    display: block !important;
+}
+.gallary p{
+    margin-bottom: 20px;
+}
+.justify{
+    justify-content: space-between;
+   
+}
+
+.gallary img{
+    margin:10px auto;
+    width: 32%;
+    height: 200px;
+    background-color: yellow;
+}
+
+
+ /* contact starts here  */
+
+.contact{
+    color: rgba(58, 57, 57, 0.815);
+}
+
+.contact p{
+    margin-bottom: 20px;
+}
+.form{
+    position: relative;
+    width: 100%;
+    /* background-color: #313446; */
+}
+
+.input{
+    width: 49%;
+    margin:10px auto 10px 0;
+  
+
+    height: 40px;
+    border:none;
+    border: 1px solid rgba(181, 185, 185, 0.589);
+    border-radius: 5px ;
+    text-indent: 5px;
+}
+.input:focus{
+    outline: none;
+    border: 2px solid rgba(5, 141, 141, 0.603);
+}
+
+.form form:last-child{
+    width: 100%;
+}
+.text-area{
+    height: 100px;
+    width: 99%;
+}
+
+.contact button{
+   border: none;
+   padding: 10px 60px;
+   background-color: #313446;
+   color: white;
+   border-radius: 10px;
+   transition: .3s;
+   margin: 20px 0;
+}
+
+.contact button:hover{
+    background-color: #ee2e24;
+}
+
+/* footer starts here  */
+footer{
+    margin:100px auto;
+    margin-bottom: 0;
+    /* padding-bottom: 20px; */
+    width: 100vw;
+    /* background-color: rgba(158, 154, 154, 0.301); */
+}
+.block{
+    background-color: rgba(158, 154, 154, 0.301);
+    height: fit-content;
+    /* width: 102%; */
+}
+footer .footer-block{
+
+    width: 32%;
+    padding: 20px 20px;
+    margin:20px auto;
+    position: relative;
+    top: 0;
+    
+
+}
+.footer-block p{
+    font-style: normal;
+    font-size: 17px;
+}
+.footer-block h3{
+    font-style:normal;
+    color: #717172;
+    font-weight: 500;
+}
+.icon{
+    width: 50px;
+    margin: 10px 10px;
+    border-radius: 50%;
+
+   
+}
+.footer-block h5{
+    color: rgb(70, 67, 67);
+    font-weight: 600;
+}
+.icon:hover{
+    background-color: rgb(255, 73, 73);
+}
+.copyright{
+    padding: 20px ;
+    text-align: center;
+}
